@@ -1,0 +1,33 @@
+{
+  "name": "agentic-automation-lib",
+  "version": "1.0.3",
+  "description": "A production-grade library for agentic automation with persistent task storage, RabbitMQ queuing, CRON scheduling, and worker support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start:server": "node dist/server.js",
+    "start:worker": "node dist/worker.js"
+  },
+  "author": "blok-hamster",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.0",
+    "ioredis": "^5.3.2",
+    "node-cron": "^3.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.6",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^9.20.1",
+    "prettier": "^3.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
