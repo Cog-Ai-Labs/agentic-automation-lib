@@ -1,6 +1,6 @@
 {
-  "name": "@sonic-agent-kit/agentic-automation-lib",
-  "version": "1.0.4",
+  "name": "@cog-agent-kit/agentic-automation-lib",
+  "version": "1.0.3",
   "description": "A production-grade library for agentic automation with persistent task storage, RabbitMQ queuing, CRON scheduling, and worker support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

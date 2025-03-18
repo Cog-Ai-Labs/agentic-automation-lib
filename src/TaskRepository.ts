@@ -45,5 +45,3 @@ export class TaskRepository {
     return tasks;
   }
 }
-
-export const taskRepository = new TaskRepository(new (require("./RedisClient").RedisClient)(require("./Config").config));
